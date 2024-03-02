@@ -1,8 +1,5 @@
 # system_settings
 
-[![pub package](https://img.shields.io/pub/v/system_settings.svg)](https://onepub.dev/packages/system_settings/znnooflygz)
-[![license](https://img.shields.io/badge/license-MIT-green)](https://onepub.dev/packages/system_settings/znnooflygz)
-
 Flutter plugin to open system and app settings from an iOS and Android app.
 
 On **Android**, this plugin supports various system setting pages as well as the app info and app notification settings page.
@@ -14,17 +11,13 @@ If not, the settings app will open with the home page. Unfortunately, this is th
 
 Add this to your package's pubspec.yaml file:
 
-## FROM onepub.dev
-```powershell
-    onepub pub add system_settings
-```
-This will add a line like this to your package's pubspec.yaml (and run dart pub get or flutter pub get):
+## FROM github
 
 ```yaml
 dependencies:
   system_settings:
-    hosted: https://onepub.dev/api/znnooflygz
-    version: ^3.0.1
+    git: https://github.com/AmirALMOHAMED/system_settings_plus.git
+    ref: main
 ```
 Alternatively, your editor might support dart pub get or flutter pub get. Check the docs for your editor to learn more.
 
@@ -50,9 +43,5 @@ Widget build(BuildContext context) {
 ## Bugs and feature requests
 
 Have a bug or a feature request? Please first search for existing and closed issues.
-If your problem or idea is not addressed yet, [please start a new discussion](https://onepub.dev/packages/system_settings/znnooflygz).
+If your problem or idea is not addressed yet, [please open a new issue](https://github.com/AmirALMOHAMED/system_settings_plus/issues).
 
-## Copyright & License
-
-Code copyright 2024–2024 Amir ALMOHAMED.
-Code released under the [MIT license](https://onepub.dev/packages/system_settings/znnooflygz).
