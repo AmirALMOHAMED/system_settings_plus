@@ -1,3 +1,9 @@
+## 3.0.0
+
+
+- Upgrade the gradle lib and kotlin package version
+
+
 ## 2.1.0
 
 - Open NFC settings on Android (thanks to [tolland](https://github.com/tolland))

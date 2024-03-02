@@ -1,6 +1,5 @@
 # system_settings
 
-![Build](https://github.com/fweinaug/system_settings/workflows/Build/badge.svg)
 [![pub package](https://img.shields.io/pub/v/system_settings.svg)](https://pub.dev/packages/system_settings)
 [![license](https://img.shields.io/badge/license-MIT-green)](https://github.com/fweinaug/system_settings/blob/master/LICENSE)
 
@@ -17,7 +16,7 @@ Add this to your package's pubspec.yaml file:
 
 ```yaml
 dependencies:
-  system_settings: 2.1.0
+  system_settings: 3.0.0
 ```
 
 Next, import the package into your dart code:
