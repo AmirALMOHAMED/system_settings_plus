@@ -16,7 +16,7 @@ Add this to your package's pubspec.yaml file:
 
 ```yaml
 dependencies:
-  system_settings: 3.0.0
+  system_settings: 3.0.1
 ```
 
 Next, import the package into your dart code:
